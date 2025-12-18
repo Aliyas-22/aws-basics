@@ -23,14 +23,28 @@ Create an S3 bucket using AWS Management Console.
 
 ### Steps
 1. Login to AWS Management Console
-2. Open the S3 service
+2. Open the Amazon S3 service
 3. Click **Create bucket**
 4. Enter a globally unique bucket name
-5. Select AWS region
-6. Configure settings (keep defaults for beginner)
-7. Review and create the bucket
+5. Select the AWS region
+6. Keep **Block all public access** enabled (recommended for security)
+7. Add tags:
+   - Key: Name
+   - Value: aws
+8. Under **Default encryption**:
+   - Enable encryption
+   - Select **Server-side encryption with Amazon S3 managed keys (SSE-S3)**
+9. Review all settings
+10. Click **Create bucket**
 
 ---
+## How to Delete an S3 Bucket
+
+1. Select the S3 bucket
+2. Click **Delete**
+3. Enter the bucket name to confirm deletion
+4. Click **Delete bucket**
+
 
 ## What I Learned
 - S3 stores data as objects, not blocks
