@@ -23,8 +23,10 @@ Launch an EC2 instance using AWS Management Console.
 6. Create a key pair (used for secure SSH access)
 7. Configure storage (EBS) with default **8 GB**
 8. Launch the instance
+9. then after click on connect to ubuntu server 
 
 ### What I Learned
 - EBS (Elastic Block Store) is used as storage for EC2 instances
 - Key pairs are required to securely connect to EC2 instances
+
 
