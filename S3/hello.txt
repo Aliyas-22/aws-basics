@@ -1,0 +1,3 @@
+Hello from Amazon S3!
+
+This file is stored in an S3 bucket and accessed through an EC2 instance using Mountpoint for Amazon S3.
